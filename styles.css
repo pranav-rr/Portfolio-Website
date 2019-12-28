@@ -436,11 +436,13 @@ footer {
 }
 
 .social-icons i {
-    fonst-size: 3rem;
+    font-size: 3rem;
     color: #fff;
     padding: .8rem 2rem;
     opacity: .5;
     transition: color .5s;
+    /*margin-right: 3rem;*/
+
 }
 
 .social-icons i:hover,
