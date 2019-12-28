@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Website</title>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index.html" class="logo"><img src="images/output-onlinepngtools.png" alt=""></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#s1" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#s2" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#s3" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#s4" class="nav-link">Classes/EC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container" id="pi">
+            <h2 class="sub-headline">
+                <span class="first-letter">W</span>elcome
+            </h2>
+            <h1 class="headline">Pranav Ramesh</h1>
+            <div class="headline-description">
+                <div class="separator">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                    <h5>My Portfolio Website</h5>
+                    <a href="#s1" class="btn cta-btn">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<script>
+        window.addEventListener('scroll', function () {
+            const parrallax = document.querySelector('.sub-headline')
+            let scrollPosition = window.pageYOffset;
+
+            parallax.style.transform = 'translateY(' + scrollPosition * .5 + 'px)';
+        })
+    </script>-->
+
+    <!--Hero ends-->
+    <section class="discover-our-story" id="s1">
+        <div class="container">
+            <div class="resturant-info">
+                <div class="resturant-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">L</span>earn
+                        </h2>
+                        <h1 class="headline headline-dark">About Me</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Hello! My name is Pranav Ramesh and I’m a second year student studying Computer Science at the
+                        University of Michigan. I have a great passion for creativity, and I see software as a pathway
+                        towards my pursuits.
+                    </p>
+                    <p>
+                        I am currently working on a bus app, under Google Assistant, that helps a user know information
+                        about nearby
+                        busses, stops, etc. For example, this may include where local bus stops are, the approximate ETA
+                        of a bus, recommendations on what bus to take to get to a certain destination, etc. The plan is
+                        to directly apply this to UM’s own bus system, but there is a high potential that this can
+                        expand to other universities that also utilize a similar interface. Feel free to send me a
+                        message if you have any questions or would like to know more about me. Enjoy your stay!
+                    </p>
+                    <!--<a href="#" class="btn body-btn">About us</a>-->
+                </div>
+                <div class="resturant-info-img animate-right">
+                    <img src="images/me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Discover our Story ends-->
+    <section class="tasteful-recipes between" id="s2">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        <span class="first-letter">D</span>ownload
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline">My Resume</h1>
+                </div>
+                <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                <a href="#" download="ResumeDownload.pdf" class="btn cta-btn">Download</a>
+            </div>
+        </div>
+    </section>
+    <!--Tasteful recipes ends-->
+    <section class="discover-our-menu" id="s3">
+        <div class="container">
+            <div class="resturant-info">
+                <div class="image-group padding-right animate-left">
+                    <img src="images/gassistant.png" alt="">
+                    <!--<img src="images/euchre.png" alt="">
+                    <img src="images/website.png" alt="">
+                    <img src="images/que.png" alt="">-->
+                </div>
+                <div class="resturant-description animate-right">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">P</span>rojects
+                        </h2>
+                        <h1 class="headline headline-dark">Completed/Current</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Google Assistant Blue Bus App |
+                        Euchre Card Game |
+                        Image Resizing Program |
+                        Online Waiting Cue |
+                        Portfolio Website: HTML/CSS/PHP
+                    </p>
+                    <!--<a href="#" class="btn body">View the full menu</a>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Discover our menu ends-->
+    <!--<section class="perfect-blend between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        <span class="first-letter">D</span>ownload
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h1 class="headline">Blend</h1>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!--Perfect blend ends-->
+    <section class="culinary-delight" id="s4">
+        <div class="container">
+            <div class="resturant-info">
+                <div class="resturant-description">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">C</span>oursework
+                        </h2>
+                        <h1 class="headline headline-dark">& Experiences</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Data Structures and Algorithms (EECS 281) |
+                        Programming and Introductory Data Structures (EECS 280) |
+                        Introduction to Statistics and Data Analysis (STATS 250) |
+                        Discrete Mathematics (EECS 203) |
+                        Introduction to Engineering Design (EGR 100) |
+                        Basics of programming in C (CSE 220)
+                    </p>
+                    <p>
+                        optiMize |
+                        ISB 202 Undergraduate Teaching Assistant |
+                        Suneel Gupta's Campaign for Congress
+                    </p>
+                    <!--<a href="#" class="btn body-btn">Make a reservation</a>-->
+                </div>
+                <!--<div class="image-group">
+                    <img class="animate-top" src="images/delight-group-1.jpg" alt="">
+                    <img class="animate-bottom" src="images/delight-group-2.jpg" alt="">
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!--Culinary delight ends-->
+    <footer>
+        <div class="container">
+            <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-about animate-up">
+                    <h4>Contact Me</h4>
+                </div>
+                <section class="contact" id="contact">
+                    <div class="container">
+                        <form id="contact-form" method="post" action="contact-form-handler.php">
+                            <label for="name">Name: </label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+                            <label for="subject">Subject</label>
+                            <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                            <input type="submit" value="Submit" name="sendbutton">
+                        </form>
+                    </div>
+                </section>
+                <footer class="copyright">
+                    <div class="up" id="up">
+                        <i class="das da chevron-up"></i>
+                        <p>&copy; 2019 Pranav Ramesh</p>
+                        <p>HTML/CSS/PHP</p>
+                    </div>
+                </footer>
+                <!--<div class="footer-content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Follow along</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-tripadvisor"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-container">
+                        <h4>Newsletter</h4>
+                        <form action="" class="newsletter-form">
+                            <input type="text" class="newsletter-input" placeholder="Your email address...">
+                            <button class="newsletter-btn" type="submit">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
