@@ -6,9 +6,10 @@
         $message = $_POST['subject'];
 
         $email_subject = "PORTFOLIO Form Submission";
-
         $to = "rameshpr@umich.edu";
+        
         mail($to,$email_subject,$message,$visitor_email);
+        header("Location: index.php?mailsend")
     }
 
     /*$email_from = 'pran.v.2020@gmail.com';
